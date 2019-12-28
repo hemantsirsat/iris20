@@ -11,16 +11,24 @@
 
 /* body */
 #box1{
-  height: 50vh;
   text-align: center;
-  padding: 20px;
 }
 #box1 p{
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
-
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
 #box2 {
-  height: 100vh;
+  min-height: 100vh;
+  /*padding: 40px;
+*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -38,8 +46,8 @@
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
 
-  width: 200px;
-  height: 350px;
+  width: 250px;
+  height: 400px;
   margin: 40px;
 
   perspective: 1000px;
