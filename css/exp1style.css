@@ -362,3 +362,7 @@ button:focus+.design-container {
   --tr: 20;
   --op: .7;
 }
+
+footer a{
+  text-decoration: none;
+}
