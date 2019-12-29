@@ -13,6 +13,7 @@
 #box1{
   text-align: center;
   padding: 15px; 
+  padding-bottom: 25px;
 }
 #box1 p{
   font-size: 1.1em;
@@ -373,14 +374,12 @@ button:focus+.design-container {
   --op: .7;
 }
 
-/*footer a{
-  text-decoration: none;
-  color: black;
+#fbook:hover{
+  color: #2850D5;
 }
-footer a:hover{
-  color: #F70101;
+#instag:hover{
+  color: #E134D5;
 }
-
-footer{
-  background-color:#00FFFF; 
-}*/
+#tweet:hover{
+  color: #5BB2FE;
+}
