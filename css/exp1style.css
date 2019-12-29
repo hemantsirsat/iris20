@@ -12,6 +12,7 @@
 /* body */
 #box1{
   text-align: center;
+  padding: 15px; 
 }
 #box1 p{
   font-size: 1.1em;
@@ -30,6 +31,14 @@
   justify-content: center;
   align-items: center;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#box2 h3{
+  color: white;
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Special Elite', cursive;
 }
 
 #fronttext{
@@ -122,6 +131,7 @@ img {
   height: 100%;
   border-radius: 24px;
 }
+
 
 /* figcaption */
 figcaption {
@@ -365,4 +375,12 @@ button:focus+.design-container {
 
 footer a{
   text-decoration: none;
+  color: black;
+}
+footer a:hover{
+  color: #F70101;
+}
+
+footer{
+  background-color:#00FFFF; 
 }
